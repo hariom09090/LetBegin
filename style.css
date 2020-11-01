@@ -1,0 +1,65 @@
+body{
+        background-color:rgb(238, 238, 238);
+        font-family: 'Courier New', Courier, monospace;
+}
+
+.body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px; 
+    background-color: #a0a0a0;
+    border: cornflowerblue 2px solid;
+}
+.page_link{
+    float: right;
+    margin-right: 40px;
+} 
+
+.social_link{
+    float : left;
+    margin-left: 40px;
+}
+
+a:hover {
+    color: red;
+}
+
+.header{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width : 1000px){
+    #welcome-section{
+        height: 100vh;
+    }
+}
+
+#welcome-section{
+    margin-top: 45px;
+    display: flex;
+}
+
+.introduction{
+    margin-right: auto;
+    float: left;
+    /* margin-left: 10%; */
+}
+
+.image{
+    width: 90px;
+    height: 130px;
+    float: right;
+    margin-right: 50px;
+}

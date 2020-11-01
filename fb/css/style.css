@@ -1,0 +1,155 @@
+*{
+    margin:0;
+}
+
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color:white;
+    margin-top:0px;
+    background-color: #4163ac;
+    padding-bottom:2px;
+}
+
+.main{
+    float:left;
+    width:45%;
+    padding:18px 0px 0px 145px;
+    font-size: 20px; 
+}
+
+.table{
+    padding-top:9px;
+}
+
+.table input{
+    border:1px black solid;
+    block-size: 20px;
+}
+
+.table_data{
+    padding-left:10px
+}
+
+.nav_1{
+    border:1px #1349bd solid;
+    background-color:#628ae2 ;
+    color:white;
+    text-decoration: none;
+}
+
+.nav_2{
+    color:rgb(195, 200, 209);
+    font-size:13px;
+    text-decoration: none;
+}
+
+.main_body{
+    background-color: rgba(209, 204, 204, 0.363);
+}
+
+.section{
+    float:left;
+    width:58%;
+}
+
+.section h2{
+    padding-top: 40px;
+    padding-left:140px;
+    color:rgb(48, 48, 95)
+}
+
+
+.side_head{
+    padding-top:22px;
+}
+
+.side_head h1{
+    font-size: 38px;
+    padding-bottom: 3px;
+}
+
+.side_head p{
+    font-size:19px;
+    padding-bottom: 18px;
+}
+
+.form{
+    padding:9px 0 9px 5px;
+    border:9px 0;
+    margin-bottom:6px; 
+    margin-right:7px ;
+    border-radius:5px;
+    border-style: solid;
+    border-width: 1px;
+    width:190px;
+}
+
+.my_form input{
+    padding:9px 0 9px 5px;
+    margin-left:2px;
+    margin-bottom:7px;
+    width:400px;
+    border-radius:5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.birthday input{
+    margin: 48px 0;
+}
+
+.birthday{
+    margin-top:23px;
+    margin-bottom:28px;
+    list-style: none;
+    font-size:19px;
+    color:grey;
+}
+
+.gender label{
+    font-size:19px;
+    padding-bottom:28px;
+    color:grey;
+}
+
+.gender{
+    padding-bottom: 18px;
+}
+
+.btn{   
+    margin-left:50px;   
+}
+
+.form_foot p{
+    font-size:13px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.sign_up{
+    margin-top:15px;
+    margin-left: 725px;
+    font-size: 28px; 
+    padding:9px 0;
+    color:rgb(233, 230, 230);
+    text-align: center;
+    border-radius: 5px;
+    border: 1px green solid;   
+    margin-right:320px;
+    background-color: rgba(45, 156, 45, 0.863);
+    margin-bottom: 34px;
+}
+
+.form_footer p{
+    font-weight: lighter;
+}
+
+.link_1{
+    text-decoration: none;
+}
+
+
+
+
