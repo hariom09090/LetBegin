@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>SURVEY FORM</title>
+</head>
+
+<body>
+    <h1 id="title">
+        SURVEY FORM
+    </h1>
+    <div id="content">
+        <p id="description">Fill this up & Comment also.</p>
+
+        <form action="actionPage.php" method="get" id="survey-form">
+            <div id="details">
+                <label for="name" id="name-label">NAME :
+                    <input type="text" id="name" placeholder="Enter Name">
+                </label>
+                <br>
+                <label for="" id="email-label">EMAIL :
+                    <input type="text" id="email" placeholder="Enter Email">
+                </label>
+                <br>
+                <label for="" id="number-label">AGE  :
+                    <input type="number" name="" id="number" min="1" max="100"      placeholder="Enter Age">
+                </label>
+            </div>
+            <div id="collegeYear">
+                <fieldset>
+                    <h3>College Year </h3>
+                    <label for="1st"> 
+                        <a><input type="radio"     name="year"     id="1st">1st</a>
+                    </label>
+                    <br>
+                    <label for="2nd">
+                        <a><input type="radio"     name="year"     id="2nd">2nd</a>
+                    </label>
+                    <br>
+                    <label for="3rd">
+                        <a><input type="radio"     name="year"     id="3rd">3rd</a>
+                    </label>
+                    <br>
+                    <label for="4th">
+                        <a><input type="radio"     name="year"     id="4th">4th</a>
+                    </label>
+                </fieldset>
+            </div>
+            <div id="hobbies">
+                <fieldset>
+                    <h3>Hobbies</h3>
+                    <label for="Assignment"><a>
+                    <input type="checkbox" value="" name="" id="Assignment">Doing       Boring Assignment of College</a>
+                </label>
+                    <br>
+                    <label for="Social">
+                    <a><input type="checkbox" value="" name="" id="Social">Timepass    on social media</a>
+                </label>
+                    <br>
+                    <label for="Painting">
+                    <a><input type="checkbox" value="" name="" id="Painting">Painting  &    Designing</a>
+                </label>
+                    <br>
+                    <label for="HWork">
+                    <a><input type="checkbox" value="" name="" id="HWork">House work</a>
+                </label>
+                    <br>
+                    <label for="Insta">
+                    <a><input type="checkbox" value="" name="" id="Insta">Saving   Insta     post for future but forgot to use</a>
+                </label>
+                    <br>
+                    <label for="Books">
+                    <a><input type="checkbox" value="" name="" id="books">Trying to    read   books as much as possible</a>
+                </label>
+            </div>
+
+            <div id="comment">
+                <h3>Comment </h3>
+                <textarea name="" id="textArea" cols="30" rows="10" required></textarea>
+            </div>
+            <button id="button" type="submit">SUBMIT</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(60deg, rgba(128, 128, 128, 0.7), white, rgba(128, 128, 128, 0.7));
+}
+
+#title {
+    background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+    text-shadow: 9px 3px 1px rgba(1, 1, 1, 0.3);
+    color: snow;
+    font-size: 50px;
+    letter-spacing: 7px;
+}
+
+#content {
+    padding-left: 30vw;
+    font-size: 20px;
+}
+
+#description {
+    text-shadow: 0.5px 0.5px;
+}
+
+#survey-form * {
+    margin-top: 10px;
+}
+
+#details * {
+    margin-top: 15px;
+}
+
+#details input {
+    border: 2px grey solid;
+    border-radius: 5px;
+    width: 30%;
+    background-color: rgba(250, 240, 210, 0.4);
+}
+
+#collegeYear {
+    margin-top: 25px;
+}
+
+#collegeYear fieldset {
+    background-color: rgba(250, 240, 210, 0.4);
+    background-image: radial-gradient( rgb(255, 192, 203, 0.2), rgb(255, 199, 210, 0), white);
+    width: 30%;
+}
+
+#hobbies {
+    margin-top: 25px;
+}
+
+#hobbies fieldset {
+    width: fit-content;
+    background-color: rgba(250, 240, 210, 0.4);
+    background-image: radial-gradient( rgb(255, 192, 203, 0.2), rgb(255, 199, 210, 0), white);
+}
+
+a:hover {
+    color: rgb(01, 220, 10);
+}
+
+#comment {
+    margin-top: 25px;
+}
+
+textarea {
+    width: auto;
+    height: 100px;
+    padding: 10px 10px;
+    /* box-sizing: border-box; */
+    border: 2px solid grey;
+    border-radius: 8px;
+    background-color: rgba(250, 240, 210, 0.4);
+}
+
+button {
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 180, 0.7);
+    padding: 8px 13px 10px 13px;
+}
+
+button:hover {
+    animation-name: hover_button;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover_button {
+    100% {
+        background-color: rgba(0, 0, 180, 1);
+        width: 90px;
+        height: 40px;
+    }
+}
+
+#button {
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
