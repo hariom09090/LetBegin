@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(100, 100, 100, 0.1);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -59,10 +59,12 @@ a:hover {
 }
 
 .image {
-    width: 90px;
-    height: 130px;
+    width: 150px;
+    height: 200px;
     float: right;
     margin-right: 50px;
+    border: 2px rgb(0, 0, 0, 0.5) solid;
+    border-radius: 10px;
 }
 
 #footer {
